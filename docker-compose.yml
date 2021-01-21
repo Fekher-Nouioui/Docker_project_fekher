@@ -1,0 +1,9 @@
+version: '3'
+services:
+  svm_service:
+    container_name: compose_fekher
+    image: fekher_finalproject:latest
+    ports: 
+      - "5000:5000"
+    volumes: 
+      - "/home/fekher-nouioui/Desktop/prediction_data:/app/prediction_data"

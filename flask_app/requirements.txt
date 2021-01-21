@@ -1,0 +1,3 @@
+librosa==0.8.0
+Flask==1.1.2
+pycm==3.0
